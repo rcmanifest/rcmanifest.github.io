@@ -4,6 +4,8 @@
 # rcmanifest.github.io: A Linux Centric Blog
 
 This repo uses github pages. [How to use github pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+Thanks to [Jim Salter](https://arstechnica.com/author/jimsalter/) who wrote a [guide to building a linux router from scratch](https://arstechnica.com/gadgets/2016/04/the-ars-guide-to-building-a-linux-router-from-scratch/)
 <br>
 <br>  
 # Creating a Router Using iptables
