@@ -12,7 +12,7 @@ Thanks to [Jim Salter](https://arstechnica.com/author/jimsalter/) who wrote a [g
 
 ## Introduction to iptables
 
-iptables is a command line utility to manage the netfilter framework in the linux kernel which handles tcp/ip traffic in the kernel.
+iptables is a command line utility to manage the netfilter framework in the linux kernel which handles tcp/ip traffic.
 
 The key concepts when using iptables are :
 - Tables (a series of chains)
