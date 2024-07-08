@@ -32,6 +32,8 @@ A rule specifies matching criteria for a packet and a target (ie. action to be t
 
 There are also a number of so-called target extensions:
 - MASQUERADE: rewrites the source address of a packet to be that of the specfied interface.
+- LOG: logs packets
+- SNAT, DNAT, etc...
 
 A rule specifies the actions to take on packets matching certain criteria.  Here is the general structure of an iptables rule:
 
@@ -39,3 +41,5 @@ A rule specifies the actions to take on packets matching certain criteria.  Here
 - -t table: specifies the table to use.  If omitted the default is the filter table.
 - COMMAND: the action to perform eg. -A to append to a chain, -D to delete
 - CHAIN: the chain to which the rule is applied eg. INPUT
+### Example: router
+
